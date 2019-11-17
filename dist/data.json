@@ -1,0 +1,84 @@
+{
+  "title": "Category title",
+  "description": "Category description",
+  "lists": [
+    {
+      "id": "list-1",
+      "title": "List title",
+      "items": [
+        {
+          "id": "list-1-item-1",
+          "title": "Item title",
+          "image": "./roundel-copy-cat.png"
+        },
+        {
+          "id": "list-1-item-2",
+          "title": "Item title",
+          "image": "./roundel-casino-island.png"
+        },
+        {
+          "id": "list-1-item-3",
+          "title": "Item title",
+          "image": "./roundel-schlager-slotten.png"
+        },
+        {
+          "id": "list-1-item-4",
+          "title": "Item title",
+          "image": "./roundel-cash-carry.png"
+        }
+      ]
+    },
+    {
+      "id": "list-2",
+      "title": "List title",
+      "items": [
+        {
+          "id": "list-2-item-1",
+          "title": "Item title",
+          "image": "./roundel-cash-carry.png"
+        },
+        {
+          "id": "list-2-item-2",
+          "title": "Item title",
+          "image": "./roundel-casino-island.png"
+        },
+        {
+          "id": "list-2-item-3",
+          "title": "Item title",
+          "image": "./roundel-copy-cat.png"
+        },
+        {
+          "id": "list-2-item-4",
+          "title": "Item title",
+          "image": "./roundel-schlager-slotten.png"
+        }
+      ]
+    },
+    {
+      "id": "list-3",
+      "title": "List title",
+      "items": [
+        {
+          "id": "list-3-item-1",
+          "title": "Item title",
+          "image": "./roundel-schlager-slotten.png"
+        },
+        {
+          "id": "list-3-item-2",
+          "title": "Item title",
+          "image": "./roundel-cash-carry.png"
+        },
+        {
+          "id": "list-3-item-3",
+          "title": "Item title",
+          "image": "./roundel-copy-cat.png"
+        },
+        {
+          "id": "list-3-item-4",
+          "title": "Item title",
+          "image": "./roundel-casino-island.png"
+        }
+      ]
+    }
+  ]
+}
