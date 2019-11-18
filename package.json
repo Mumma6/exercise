@@ -1,8 +1,8 @@
 {
   "name": "paf-frontend-exercise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "author": "Johan Westling",
+  "author": "Martin Persson",
   "license": "ISC",
   "main": "index.html",
   "scripts": {

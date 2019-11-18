@@ -7,7 +7,7 @@ const titleDiv = document.getElementById("title-info");
 function loadData() {
   const request = new XMLHttpRequest();
 
-  // Make a Get request to the json data
+  // Make a Get request to the json data and parse it to js object
   request.open("get", "./data.json");
   request.onload = () => {
     try {
@@ -45,18 +45,16 @@ function populateData(json) {
       const img = document.createElement("img");
       img.src = cell.image;
 
-      const div = document.createElement("div")
-     
-      div.appendChild(img)
-      div.innerHTML = `<p>${cell.id}</p>`
-      div.insertAdjacentElement("afterbegin", img)
-      
+      const div = document.createElement("div");
+      div.appendChild(img);
+      div.innerHTML = `<p>${cell.title}</p>`;
+      div.insertAdjacentElement("afterbegin", img);
+      div.id = cell.id;
+
       td.appendChild(div);
       tr.appendChild(td);
-
     });
 
-    // ta bort tablehead o kör vanliga divvar
     titleDiv.appendChild(h1);
     titleDiv.appendChild(hr);
     titleDiv.appendChild(h3);
