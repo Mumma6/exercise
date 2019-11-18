@@ -1,3 +1,6 @@
+Live demo: https://frontend-exercise.netlify.com/
+
+
 # Paf frontend exercise
 
 Translate the provided [designs (for small & large viewports)](#designs) into a working solution with HTML, CSS and JavaScript.
