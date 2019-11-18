@@ -1,4 +1,4 @@
-# Live demo: https://frontend-exercise.netlify.com/
+Live demo: https://frontend-exercise.netlify.com/
 
 
 # Paf frontend exercise
